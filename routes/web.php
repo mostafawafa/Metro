@@ -19,6 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::post('/sthortesPath','StationController@getShortestPath');
+Route::post('/shortestPath','StationController@getShortestPath');
 
 
