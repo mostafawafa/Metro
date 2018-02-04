@@ -1,0 +1,32 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+    background: #131314;
+
+
+}
+
+
+#app h4{
+    color:#fff;
+}
+.navbar-default {
+    background-color: #131314;
+    border-color: #131314;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+label{
+    color:#fff;
+}
